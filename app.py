@@ -1,3 +1,14 @@
+import gdown
+import os
+
+if not os.path.exists("best.pt"):
+    # Replace with your actual Google Drive file ID
+    gdown.download(
+        "https://drive.google.com/uc?id=YOUR_FILE_ID",
+        "best.pt", quiet=False
+    )
+
+
 import streamlit as st
 import cv2
 import numpy as np
