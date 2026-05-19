@@ -1,0 +1,6 @@
+ultralytics>=8.4.0
+streamlit
+opencv-python-headless
+numpy
+Pillow
+supervision
