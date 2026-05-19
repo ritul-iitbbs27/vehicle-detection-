@@ -219,7 +219,7 @@ with st.sidebar:
 
     model_path = st.text_input(
         "Model weights path",
-        value=r"C:\Users\ritul\OneDrive\Desktop\yolo26\runs\segment\vehicle_run\weights\best.pt",
+        value="best.pt",
         help="Path to your trained best.pt or yolo26n-seg.pt"
     )
 
